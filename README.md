@@ -1,2 +1,2 @@
-#安装 propTypes
+#安装 propTypes 
 npm install --save prop-types
