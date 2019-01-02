@@ -1,8 +1,8 @@
 #运行先检查node.js的版本
 
-#检查Node.js版本
+#检查Node.js版本 -v 是 version的简写
 
-node --version
+node --v
 
 #检查npm的版本
 
