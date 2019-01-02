@@ -21,7 +21,7 @@ class App extends React.Component {
       const comments = [
         {
           username: "小明",
-          content: "ReactJS好难啊!",
+          content: "ReactJS好难啊！!",
           id: Date.now()
         },
         {
