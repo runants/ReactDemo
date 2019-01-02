@@ -11,9 +11,9 @@ export default class App extends Component {
   // 初始化状态
   state = {
     comments: [
-      {username: 'Tom', content: 'React还可以'},
-      {username: 'Jack', content: 'React有点难'},
-      {username: 'bz', content: 'React SO SO!!!'}
+      {username: '老王', content: 'React还可以'},
+      {username: '小明', content: 'React有点难'},
+      {username: 'zz', content: 'React SO SO!!!'}
     ]
   }
 
