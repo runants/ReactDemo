@@ -1,4 +1,5 @@
 #运行先检查node.js的版本
+
 #检查Node.js版本
 
 node --version
@@ -6,10 +7,15 @@ node --version
 npm -v
 
 #检查webpack的版本
+
 webpack -v
 
 #安装全局yarn
+
 npm install -g yarn
+
 yarn install
+
 #安装 prop-types
+
 yarn add prop-types
