@@ -48,25 +48,32 @@ class App extends React.Component {
     this.setState({ comments })
   }
 
-  render () {
-    return (
-      <div>
-        <header style={{background:'#828a99'}} className="site-header jumbotron">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12">
-                <h1 style={{color:'#fff'}}>对ReactDemo的评论</h1>
-              </div>
+
+    render () {
+        return (
+            <div>
+                <header style={{background:'#828a99'}} className="site-header jumbotron">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xs-12">
+                                <h1 style={{color:'#fff'}}>对ReactDemo的评论</h1>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <div className="container">
+
+                    <CommentAdd add={this.add}/>
+
+                    <CommentList comments={this.state.comments} delete={this.delete}/>
+                </div>
             </div>
-          </div>
-        </header>
-        <div className="container">
-          <CommentAdd add={this.add}/>
-          <CommentList comments={this.state.comments} delete={this.delete}/>
-        </div>
-      </div>
-    )
-  }
+        )
+    }
+
 }
+
+
 
 export default App
