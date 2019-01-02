@@ -8,12 +8,12 @@ class CommentAdd extends React.Component {
       username: '',
       content: ''
     }
-    this.addComment = this.addComment.bind(this)
+   /* this.addComment = this.addComment.bind(this)
     this.changeUsername = this.changeUsername.bind(this)
-    this.changeContent = this.changeContent.bind(this)
+    this.changeContent = this.changeContent.bind(this)*/
   }
 
-  addComment () {
+  addComment = () =>{
     // 根据输入的数据创建评论对象
     let { username, content } = this.state
     let comment = { username, content }
@@ -26,13 +26,13 @@ class CommentAdd extends React.Component {
     })
   }
 
-  changeUsername (event) {
+  changeUsername =(event) =>{
     this.setState({
       username: event.target.value
     })
   }
 
-  changeContent (event) {
+  changeContent =(event) =>{
     this.setState({
       content: event.target.value
     })
