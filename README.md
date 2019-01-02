@@ -1,8 +1,10 @@
 #运行先检查node.js的版本
 #检查Node.js版本
+
 node --version
 #检查npm的版本
 npm -v
+
 #检查webpack的版本
 webpack -v
 
