@@ -44,6 +44,7 @@ class App extends React.Component {
 
   delete (index) {
     let comments = this.state.comments
+      /*splice做删除*/
     comments.splice(index, 1)
     this.setState({ comments })
   }
