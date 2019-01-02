@@ -9,9 +9,9 @@ class App extends React.Component {
 
     this.state = {
       comments: []
-    }
+  }
 
-    this.delete = this.delete.bind(this)
+    //this.delete = this.delete.bind(this)
   }
 
   // 在此方法中启动定时器/绑定监听/发送ajax请求
@@ -22,12 +22,12 @@ class App extends React.Component {
         {
           username: "小明",
           content: "ReactJS好难啊！!",
-          id: Date.now()
+          //id: Date.now()
         },
         {
           username: "老王",
           content: "ReactJS还不错!",
-          id: Date.now() + 1
+         // id: Date.now() + 1
         }
       ]
       this.setState({
@@ -42,9 +42,9 @@ class App extends React.Component {
     this.setState({ comments })
   }
 
-  delete (index) {
+  delete =(index) =>{
     let comments = this.state.comments
-      /*splice做删除*/
+      /*splice做删除，删除1条*/
     comments.splice(index, 1)
     this.setState({ comments })
   }
