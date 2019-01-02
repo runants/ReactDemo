@@ -2,7 +2,7 @@
 
 #检查Node.js版本 -v 是 version的简写
 
-node --v
+node -v
 
 #检查npm的版本
 
