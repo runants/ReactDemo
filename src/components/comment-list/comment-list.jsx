@@ -33,4 +33,6 @@ CommentList.propTypes = {
   delete: PropTypes.func.isRequired
 }
 
+
+
 export default CommentList
