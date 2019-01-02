@@ -14,6 +14,7 @@ class App extends React.Component {
     this.delete = this.delete.bind(this)
   }
 
+  // 在此方法中启动定时器/绑定监听/发送ajax请求
   componentDidMount () {
     //模拟异步获取数据
     setTimeout(() => {
